@@ -2,6 +2,7 @@
  Documentation - Dashboard CQ (Contrôle Qualité)
 
 Ce document décrit le fonctionnement global du script `dashboard_cq_artiscan.py` et les prérequis pour son déploiement.
+Le script a été élaboré pour l'Institution Gustave Roussy et dois être personalisé pour fonctionner dans un autre centre.
 
 ---
 
@@ -86,7 +87,8 @@ Pour adapter le script à un autre centre :
 - Mettre à jour la liste **MACHINES** (ID machine et noms).
 - Adapter les **regex** si les noms des tests diffèrent (CQM, CQH, CQS).
 - Ajuster **MODULES_PAR_TYPE** avec les IDs des modules spécifiques au centre.
-
+- Adapter l'ID des modules / protocoles et noms des machines dans le config.py ET le code principal.
+- Créer un dossier à la racine du script nommé "static" et y insérer dedans le logo du centre en remplacant également le nom du fichier logo dans le code principal.
 ---
 
 ## 6. Sécurité
