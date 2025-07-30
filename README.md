@@ -69,7 +69,7 @@ Chaque machine est marquée comme :
 1. Configurer `config.py` (server, database, machines, regex, etc.).
 2. Exécuter :
    ```bash
-   python dashboard_cq_secure.py
+   python dashboard_cq_artiscan.py
    ```
 3. Entrer l’identifiant SQL et le mot de passe.
 4. Accéder au dashboard via : 
